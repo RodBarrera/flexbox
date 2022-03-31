@@ -1,0 +1,39 @@
+.caja{
+    background-color: rgb(209, 206, 233);
+    display: flex;
+    flex-direction: row;
+    /* alineacion eje x */
+    justify-content: center;
+    /*Alineacion eje y */
+    align-items: center;
+    height: 500px;
+    
+
+}
+
+.caja img{
+    width: 50px;
+}
+
+.caja2{
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px 15px black;
+    padding: 8px;
+}
+
+.cuenta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.cuenta img{
+    width: 80px;
+    border-radius: 40px;
+    margin-right: 12px;
+}
